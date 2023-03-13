@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Faculty of Painting</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai:wght@600&family=Mitr:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style/style_paint.css">
+    <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.7.0/css/all.css' integrity='sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ' crossorigin='anonymous'>
+</head>
+<body>
+    <nav>
+        
+        <button class="btn-hamburger">
+            <i class="fas fa-bars"></i>
+        </button>
+
+        <a href="home.html">
+            <img alt="โลโก้ศิลปากร" src="img/logo_silpakorn.png" width="60">
+        </a>
+
+        <ul>
+            <li><a href="index.html">หน้าแรก</a></li>
+            <li><a href="faculty.html">คณะวิชา</a></li>
+            <li><a href="contact.html">ติดต่อ</a></li>
+        </ul>
+
+    </nav>
+
+    <div class="background" style="background-image: url('img/paint_1.JPG'); background-size: cover; background-attachment: fixed; background-repeat: no-repeat;">
+        <img class="image" src="img/logopaint.png">
+        <div class="txt">
+            <h5>คณะจิตรกรรม</h5>
+            <h5>ประติมากรรมและภาพพิมพ์</h5>
+        </div>
+    </div>
+
+    <div class="container">
+        <h1>ประวัติคณะจิตรกรรม ประติมากรรมและภาพพิมพ์</h1>
+
+        <p style="text-indent: 70px;">คณะจิตรกรรมประติมากรรมและภาพพิมพ์ มหาวิทยาลัยศิลปากร (อังกฤษ: Faculty of Painting, Sculpture and Graphic Arts, Silpakorn University) เป็นคณะวิชาแรกของ มหาวิทยาลัยศิลปากร ก่อตั้งขึ้นเมื่อวันที่ 12 ตุลาคม พ.ศ. 2486 ซึ่งถือกำเนิดขึ้นพร้อมกับการจัดตั้งมหาวิทยาลัยศิลปากร มีรากฐานมาจากหลักสูตรจิตรกรรมและประติมากรรมของโรงเรียนศิลปากรแผนกช่าง (ต่อมาได้ยกฐานะขึ้นเป็นมหาวิทยาลัยศิลปากร มีคณะจิตรกรรมและประติมากรรมเป็นคณะวิชาเดียวของมหาวิทยาลัยศิลปากร)</p>
+        <center><h6>สัญลักษณ์ประจำคณะจิตรกรรม ประติมากรรมและภาพพิมพ์</h6></center>
+        <center><img alt="คณะจิตรกรรม ประติมากรรมและภาพพิมพ์" src="img/logopaint.png"></center>
+        <center><h6>วิสัยทัศน์ของคณะ</h6></center>
+        <center><p>เป็นคณะวิชาชั้นนำด้านศิลปะร่วมสมัย ตอบสนองความต้องการของสถานการณ์ปัจจุบัน ได้รับการยอมรับระดับสากล</p></center>
+        <center><h6>สีของคณะ</h6></center>
+        <center><p>สีหรดาล</p></center>
+    </div>
+
+    <div class="footer">
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.3.js" integrity="sha256-nQLuAZGRRcILA+6dMBOvcRh5Pe310sBpanc6+QBmyVM=" crossorigin="anonymous"></script>
+    
+    <script>
+        $(document).ready(function(){
+            $(".btn-hamburger").on("click", function(){
+                $("nav ul").toggleClass("nav-active");
+            })
+        });
+    </script>
+</body>
+</html>

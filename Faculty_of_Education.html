@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Faculty of Education</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai:wght@600&family=Mitr:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style/style_edu.css">
+    <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.7.0/css/all.css' integrity='sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ' crossorigin='anonymous'>
+</head>
+<body>
+    <nav>
+        
+        <button class="btn-hamburger">
+            <i class="fas fa-bars"></i>
+        </button>
+
+        <a href="home.html">
+            <img alt="โลโก้ศิลปากร" src="img/logo_silpakorn.png" width="60">
+        </a>
+
+        <ul>
+            <li><a href="index.html">หน้าแรก</a></li>
+            <li><a href="faculty.html">คณะวิชา</a></li>
+            <li><a href="contact.html">ติดต่อ</a></li>
+        </ul>
+
+    </nav>
+
+    <div class="background" style="background-image: url('img/edu_1.JPG'); background-size: cover; background-attachment: fixed; background-repeat: no-repeat;">
+        <img class="image" src="img/logoedu.png">
+        <h5>คณะศึกษาศาสตร์</h5>
+    </div>
+
+    <div class="container">
+        <h1>ประวัติคณะศึกษาศาสตร์</h1>
+
+        <p style="text-indent: 70px;">คณะศึกษาศาสตร์ มหาวิทยาลัยศิลปากร ก่อตั้งขึ้นในปี พ.ศ. 2513 เปิดเป็นคณะวิชาที่ 6 ของมหาวิทยาลัยศิลปากร และเป็นคณะวิชาลำดับที่ 2 ของวิทยาเขตพระราชวังสนามจันทร์ คณะศึกษาศาสตร์ได้เปิดสอนนักศึกษารุ่นแรกเมื่อวันที่ 18 มิถุนายน พ.ศ. 2513 โดยมี ฯพณฯ ศาสตราจารย์ มล.ปิ่น มาลากุล ซึ่งดำรงตำแหน่งอธิการบดีมหาวิทยาลัยศิลปากรในขณะนั้น เป็นผู้รักษาการคณบดีคนแรกของคณะศึกษาศาสตร์
+        </p>
+        <center><h6>สัญลักษณ์ประจำคณะศึกษาศาสตร์</h6></center>
+        <center><img alt="คณะศึกษาศาสตร์" src="img/logoedu.png"></center>
+        <center><h6>ปรัชญาของคณะ</h6></center>
+        <center><p> “ องค์กรแห่งความเป็นเลิศด้านการศึกษา ”  (Excellent Educational Organization)</p></center>
+        <center><h6>วิสัยทัศน์ของคณะ</h6></center>
+        <center><p>องค์กรแห่งการสร้างสรรค์ มีความเป็นเลิศ มีความเป็นมืออาชีพด้านการศึกษา (Organization of Creativity, Educational Excellence and Professionalism) ระดับ 1 ใน 3 ของประเทศ</p></center>
+        <center><h6>สีของคณะ</h6></center>
+        <center><p>สีน้ำเงินครามฝรั่ง</p></center>
+        <center><h6>ดอกไม้ประจำคณะ</h6></center>
+        <center><p>ดอกกล้วยไม้</p></center>
+    </div>
+
+    <div class="footer">
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.3.js" integrity="sha256-nQLuAZGRRcILA+6dMBOvcRh5Pe310sBpanc6+QBmyVM=" crossorigin="anonymous"></script>
+    
+    <script>
+        $(document).ready(function(){
+            $(".btn-hamburger").on("click", function(){
+                $("nav ul").toggleClass("nav-active");
+            })
+        });
+    </script>
+</body>
+</html>

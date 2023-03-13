@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Faculty of Engineering</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai:wght@600&family=Mitr:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style/style_en.css">
+    <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.7.0/css/all.css' integrity='sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ' crossorigin='anonymous'>
+</head>
+<body>
+    <nav>
+        
+        <button class="btn-hamburger">
+            <i class="fas fa-bars"></i>
+        </button>
+
+        <a href="home.html">
+            <img alt="โลโก้ศิลปากร" src="img/logo_silpakorn.png" width="60">
+        </a>
+
+        <ul>
+            <li><a href="index.html">หน้าแรก</a></li>
+            <li><a href="faculty.html">คณะวิชา</a></li>
+            <li><a href="contact.html">ติดต่อ</a></li>
+        </ul>
+
+    </nav>
+
+    <div class="background" style="background-image: url('img/eng_1.JPG'); background-size: cover; background-attachment: fixed; background-repeat: no-repeat;">
+        <img class="image" src="img/logoeng.png">
+        <div class="txt">
+            <h5>คณะวิศวกรรมศาสตร์</h5>
+            <h5>และเทคโนโลยีอุตสาหกรรม</h5>
+        </div>
+    </div>
+
+    <div class="container">
+        <h1>ประวัติคณะวิศวกรรมศาสตร์และเทคโนโลยีอุตสาหกรรม</h1>
+
+        <p style="text-indent: 70px;">คณะวิศวกรรมศาสตร์และเทคโนโลยีอุตสาหกรรม(ชื่อเดิมคือ คณะเทคโนโลยีอุตสาหกรรม) มหาวิทยาลัยศิลปากร ได้มีการจัดตั้งขึ้นตามพระราชกฤษฎีกาจัดตั้งคณะเทคโนโลยีอุตสาหกรรมในมหาวิทยาลัยศิลปากร ทบวงมหาวิทยาลัย พ.ศ. 2534 เพื่อให้มหาวิทยาลัยมีการขยายการเรียนการสอนในสาขาวิทยาศาสตร์ประยุกต์ เทคโนโลยีและวิศวกรรม</p>
+        <center><h6>สัญลักษณ์ประจำคณะวิศวกรรมศาสตร์และเทคโนโลยีอุตสาหกรรม</h6></center>
+        <center><img alt="คณะคณะวิศวกรรมศาสตร์และเทคโนโลยีอุตสาหกรรม" src="img/logoeng.png"></center>
+        <center><h6>วิสัยทัศน์ของคณะ</h6></center>
+        <center><p>"Creative Engineering"</p></center>
+        <center><p>พัฒนาทรัพยากรมนุษย์ให้มีความรู้และความคิดสร้างสรรค์ทางด้านวิศวกรรมศาสตร์และเทคโนโลยีเพื่อตอบสนองอุตสาหกรรม</p></center>
+        <center><h6>สีของคณะ</h6></center>
+        <center><p>สีแดงเข้ม (Crimson)</p></center>
+    </div>
+
+    <div class="footer">
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.3.js" integrity="sha256-nQLuAZGRRcILA+6dMBOvcRh5Pe310sBpanc6+QBmyVM=" crossorigin="anonymous"></script>
+    
+    <script>
+        $(document).ready(function(){
+            $(".btn-hamburger").on("click", function(){
+                $("nav ul").toggleClass("nav-active");
+            })
+        });
+    </script>
+</body>
+</html>

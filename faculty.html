@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Faculty of Silpakorn</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai:wght@600&family=Mitr:wght@600&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai:wght@600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style/style_fac.css">
+    <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.7.0/css/all.css' integrity='sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ' crossorigin='anonymous'>
+</head>
+<body>
+    <nav>
+        
+        <button class="btn-hamburger">
+            <i class="fas fa-bars"></i>
+        </button>
+
+        <a href="index.html">
+            <img alt="โลโก้ศิลปากร" src="img/logo_silpakorn.png" width="60">
+        </a>
+
+        <ul>
+            <li><a href="index.html">หน้าแรก</a></li>
+            <li><a href="faculty.html">คณะวิชา</a></li>
+            <li><a href="contact.html">ติดต่อ</a></li>
+        </ul>
+
+    </nav>
+
+    <div class="container">
+        <h2>คณะในมหาวิทยาลัยศิลปากร</h2>
+        <h3>วิทยาเขตพระราชวังสนามจันทร์</h3>
+    </div>
+
+    <div class="main-content">
+        <div class="box">
+            <img class="image" src="img/art.png">
+            <h2>คณะอักษรศาสตร์</h2>
+            <p>Faculty of Arts</p>
+            <a class="button" href="Faculty_of_Arts.html">Read more</a>
+        </div>
+        <div class="box">
+            <img class="image" src="img/edu.png">
+            <h2>คณะศึกษาศาสตร์</h2>
+            <p>Faculty of Education</p>
+            <a class="button" href="Faculty_of_Education.html">Read more</a>
+        </div>
+        <div class="box">
+            <img class="image" src="img/sci.png">
+            <h2>คณะวิทยาศาสตร์</h2>
+            <p>Faculty of Science</p>
+            <a class="button" href="Faculty_of_Science.html">Read more</a>
+        </div>
+        <div class="box">
+            <img class="image" src="img/phar.png">
+            <h2>คณะเภสัชศาสตร์</h2>
+            <p>Faculty of Pharmacy</p>
+            <a class="button" href="Faculty_of_Pharmacy.html">Read more</a>
+        </div>
+        <div class="box">
+            <img class="image" src="img/eng.png">
+            <h2>คณะวิศวกรรมศาสตร์และเทคโนโลยีอุตสาหกรรม</h2>
+            <p>Faculty of Engineering</p>
+            <a class="button" href="Faculty_of_Engineering.html">Read more</a>
+        </div>
+        <div class="box">
+            <img class="image" src="img/paint.png">
+            <h2>คณะจิตรกรรม ประติมากรรมและภาพพิมพ์</h2>
+            <p>Faculty of Painting, Sculpture and Graphic Arts</p>
+            <a class="button" href="Faculty_of_Painting.html">Read more</a>
+        </div>
+        <div class="box">
+            <img class="image" src="img/dec.png">
+            <h2>คณะมัณฑนศิลป์</h2>
+            <p>Faculty of Decorative Arts</p>
+            <a class="button" href="Faculty_of_Decorative_Arts.html">Read more</a>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.3.js" integrity="sha256-nQLuAZGRRcILA+6dMBOvcRh5Pe310sBpanc6+QBmyVM=" crossorigin="anonymous"></script>
+    
+    <script>
+        $(document).ready(function(){
+            $(".btn-hamburger").on("click", function(){
+                $("nav ul").toggleClass("nav-active");
+            })
+        });
+    </script>
+</body>
+</html>

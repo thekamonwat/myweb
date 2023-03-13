@@ -1,0 +1,163 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav{
+    width: 100%;
+    height: 90px;
+    /*background: rgb(14, 13, 12);*/
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 8px solid #eea13c;
+}
+
+a img {
+    opacity: 0.65;
+}
+
+a img:hover{
+    opacity: 1;
+}
+
+.btn-hamburger {
+    font-size: 1.5rem;
+    padding: 10px;
+    background: none;
+    cursor: pointer;
+    display: none;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav ul li{
+    list-style: none;
+}
+
+nav ul li a{
+    text-decoration: none;
+    font-family: 'IBM Plex Sans Thai', sans-serif;
+    color: #999;
+    font-size: 18px;
+    /*background: chartreuse;*/
+    padding: 15px 30px;
+    transition: .3s ease;
+}
+
+nav ul li a:hover{
+    color: #007685;
+}
+
+.image{
+    width: 200px;
+}
+
+.background{
+    width: 100%;
+    height: 650px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    /*padding-top: 50px;*/
+}
+
+.background h5{
+    font-family: 'Mitr', sans-serif;
+    color: #cccccc;
+    font-size: 70px;
+    padding-left: 50px;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-top: 30px;
+    padding-left: 50px;
+}
+
+.container h1{
+    font-family: 'Mitr', sans-serif;
+    color: #eea13c;
+    font-size: 35px;
+    text-align: center;
+}
+
+.container p{
+    font-family: 'Mitr', sans-serif;
+    color: #000000;
+    font-size: 20px;
+    padding-top: 20px;
+    /*text-indent: 70px;*/
+    /*text-align: center;*/
+}
+
+.container h6{
+    font-family: 'Mitr', sans-serif;
+    color: #eea13c;
+    font-size: 35px;
+    padding-top: 30px;
+    /*text-align: center;*/
+}
+
+.container img{
+    width: 300px;
+    padding-top: 30px;
+    text-align: center;
+}
+
+@media screen and (max-width: 900px){
+    .container{
+        width: 100px;
+    }
+
+    nav{
+        /*background: mediumaquamarine;*/
+        height: auto;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .btn-hamburger{
+        display: block;
+        position: fixed;
+        top: 10px;
+        left: 10px;
+        z-index: 10;
+    }
+
+    nav img{
+        margin: 20px 0;
+    }
+
+    nav ul{
+        width: 100%;
+        background: #fff;
+        display: none;
+        /*display: flex;*/
+        flex-direction: column;
+        transition: .3s ease;
+    }
+
+    nav ul li a{
+        display: flex;
+        justify-content: center;
+        border-bottom: 1px solid #e5e5e5;
+    }
+
+    .nav-active {
+        display: flex;
+    }
+}
+
+.footer {
+    background-color: #eea13c;
+    margin-top: 50px;
+    padding: 40px;
+}
